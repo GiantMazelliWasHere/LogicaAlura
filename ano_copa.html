@@ -1,0 +1,29 @@
+<meta charset="UTF-8">
+
+<script>
+	
+	function skipLine(){
+
+		document.write("<br>");
+		document.write("<br>");
+	}	
+	
+	function print(phrase){
+
+		document.write(phrase);
+		skipLine();
+	}
+
+	var limite = parseInt(prompt("Entre com a data limite"))
+	var anoCopa = 1930;
+
+	while (anoCopa <= limite){
+
+		print("Teve copa em " + anoCopa);
+		anoCopa = anoCopa + 4;
+
+	}
+	
+	print("Fim");
+
+</script>
